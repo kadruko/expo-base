@@ -25,6 +25,6 @@ export {
     KeyboardAwareScrollView, NotificationProvider, OptionsActionSheetButton,
     ScrollView,
     TextField,
-    useNotification as useNavigationContext
+    useNotification
 };
 

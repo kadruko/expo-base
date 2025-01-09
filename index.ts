@@ -10,6 +10,7 @@ import KeyboardAwareScrollView from './components/KeyboardAwareScrollView';
 import OptionsActionSheetButton from './components/OptionsActionSheetButton';
 import ScrollView from './components/ScrollView';
 import TextField from './components/TextField';
+import NotificationProvider from './context/notification.provider';
 
 export {
     ActionSheet,
@@ -20,8 +21,7 @@ export {
     ImagePicker,
     ImagePreviewDialog,
     InformationDialog,
-    KeyboardAwareScrollView,
-    OptionsActionSheetButton,
+    KeyboardAwareScrollView, NotificationProvider, OptionsActionSheetButton,
     ScrollView,
     TextField
 };

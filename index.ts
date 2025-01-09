@@ -11,6 +11,7 @@ import OptionsActionSheetButton from './components/OptionsActionSheetButton';
 import ScrollView from './components/ScrollView';
 import TextField from './components/TextField';
 import NotificationProvider from './context/notification.provider';
+import useNavigationContext from './hooks/useNavigationContext';
 
 export {
     ActionSheet,
@@ -23,6 +24,7 @@ export {
     InformationDialog,
     KeyboardAwareScrollView, NotificationProvider, OptionsActionSheetButton,
     ScrollView,
-    TextField
+    TextField,
+    useNavigationContext
 };
 

@@ -22,6 +22,7 @@ export default function NotificationProvider({
         visible={message !== undefined}
         position={'bottom'}
         autoDismiss={5000}
+        message={message}
         onDismiss={() => setMessage(undefined)}
       />
     </NotificationContext.Provider>
